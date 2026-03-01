@@ -1,0 +1,28 @@
+{
+  "name": "serverfilecop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "aws": "^0.0.3-2",
+    "aws-sdk": "^2.1623.0",
+    "dotenv": "^16.4.5",
+    "download": "^8.0.0",
+    "fs-extra": "^11.2.0",
+    "ftp-deploy": "^2.4.7",
+    "mysql": "^2.18.1",
+    "mysqldump": "^3.2.0",
+    "nodemon": "^3.1.0",
+    "simple-git": "^3.24.0",
+    "ssh-keygen": "^0.5.0",
+    "ssh2": "^1.15.0",
+    "ssh2-sftp-client": "^10.0.3",
+    "tar": "^7.0.1"
+  }
+}

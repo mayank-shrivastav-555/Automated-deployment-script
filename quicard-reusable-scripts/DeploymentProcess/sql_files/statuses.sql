@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS statuses (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255)
+);
+ALTER TABLE statuses ADD CONSTRAINT temp_unique_check UNIQUE (name);
+
+INSERT IGNORE statuses (name) VALUES
+('DOCUMENT_VERIFIED'),
+('SELFIE_VERIFIED'),
+('MOBILE_VERIFIED'),
+('EMAIL_VERIFIED'),
+('COMPLETED');
+
+ALTER TABLE statuses DROP INDEX temp_unique_check;
+
